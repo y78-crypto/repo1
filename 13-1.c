@@ -7,7 +7,7 @@ void calc_ans(double a, double b, double c)
     // 二次方程式であることの確認
     if (a == 0){
         printf("Please enter a non-zero value for a.\n");
-        return -1;
+        return;
     }
     
     // 判別式を計算する

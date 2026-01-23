@@ -2,7 +2,7 @@
 #include <math.h>
 
 // 二次方程式の解を表示する関数
-double calc_ans(int a, int b, int c)
+double calc_ans(double a, double b, double c)
 {
     // 二次方程式であることの確認
     if (a == 0){
@@ -35,7 +35,7 @@ double calc_ans(int a, int b, int c)
 int main(void)
 {
     // キーボードからの入力を受け付ける
-    printf("Enter the coefficients (a, b, c) in descending order.\n");
+    printf("Enter the integer coefficients (a, b, c) in descending order.\n");
     double a, b, c;
     scanf("%lf", &a);
     scanf("%lf", &b);

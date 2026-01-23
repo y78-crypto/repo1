@@ -2,7 +2,7 @@
 #include <math.h>
 
 // 二次方程式の解を表示する関数
-double calc_ans(double a, double b, double c)
+void calc_ans(double a, double b, double c)
 {
     // 二次方程式であることの確認
     if (a == 0){
